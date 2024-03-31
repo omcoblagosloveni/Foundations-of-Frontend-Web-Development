@@ -1,0 +1,30 @@
+body {
+    background-color: #85AFD4;
+    font-family: 'Lato', sans-serif;
+    color: white;
+}
+
+/* Set titles (h1, h2, h3, etc.) to bold */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: bold;
+}
+
+/* Set text color to white */
+p, a, label, input[type="text"], input[type="password"], input[type="email"], input[type="tel"], textarea {
+    font-weight: normal;
+}
+
+/* Style submit buttons */
+input[type="submit"], button[type="submit"] {
+    background-color: #E47272;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style link text to be bold */
+a {
+    font-weight: bold;
+}
